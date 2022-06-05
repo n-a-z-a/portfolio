@@ -109,31 +109,31 @@ p {
 .project > img {
   /* float: left; */
   margin-left: 2%;
+  padding-left: 2%;
   padding-right: 2%;
   padding-bottom: 5%;
   height: 25rem;
   width: 30rem;
-  object-fit: contain;
+  object-fit:contain;
 }
 
 .project {
   display: flex;
-  align-content: space-around;
-  justify-items: center;
+  align-items: center;
   gap: 2%;
 }
 
 #projects > h2 {
   color: #8d99ae;
   font-size: 2rem;
-  padding-left: 12%;
-  padding-bottom: 3%;
+  padding-left: 8%;
+  padding-bottom: 2%;
   text-transform: uppercase;
 }
 
-.project > p {
-  width: 20%;
-  margin-bottom: 5%;
+.project > a:hover {
+  text-decoration: none;
+  color: #FCA311;
 }
 
 
